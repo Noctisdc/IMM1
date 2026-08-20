@@ -27,7 +27,7 @@ st.write('Un cangrejo encontró una bola de arroz, y un mono, envidioso, la camb
 'Sus hijos, ayudados por una castaña, una avispa y un mortero,'
 'prepararon una trampa: la castaña quemó al mono en el fogón,'
 'la avispa lo picó cuando fue a buscar agua,'
-'y el mortero cayó sobre él desde el techo. Así, el cangrejo fue vengado.').
+'y el mortero cayó sobre él desde el techo. Así el cangrejo fue vengado.').
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
