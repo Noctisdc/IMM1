@@ -7,7 +7,7 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
-st.title("Conversión jkjkjkjk")
+st.title("Conversión")
 image = Image.open('japan.jpg')
 st.image(image, width=350)
 with st.sidebar:
