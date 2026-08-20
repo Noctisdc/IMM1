@@ -7,7 +7,7 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
-st.title("Conversión")
+st.title("Fabula Japonesa")
 image = Image.open('japan.jpg')
 st.image(image, width=350)
 with st.sidebar:
@@ -19,15 +19,15 @@ try:
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
-st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
-         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
-         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
-         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
-         '  '
-         ' Franz Kafka.'
-        
-        )
+st.subheader("El mono y el cangrejo.")
+st.write("Un cangrejo encontró una bola de arroz, y un mono, envidioso, la cambió por una semilla de caqui que él mismo había hallado.
+El cangrejo plantó la semilla, que creció hasta convertirse en un árbol cargado de frutos, pero no podía trepar para alcanzarlos.
+El mono se ofreció a subir por él, y una vez arriba se comió todos los caquis maduros; cuando el cangrejo le pidió su parte,
+le arrojó uno verde y duro que lo hirió de muerte.
+Sus hijos, ayudados por una castaña, una avispa y un mortero,
+prepararon una trampa: la castaña quemó al mono en el fogón,
+la avispa lo picó cuando fue a buscar agua,
+y el mortero cayó sobre él desde el techo. Así, el cangrejo fue vengado.")
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
